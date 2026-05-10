@@ -1,7 +1,10 @@
+// src/components/cards/DayCard.jsx
 import React, { useRef, useState } from 'react';
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 
-const DayCard = ({ htmlId, day, title, description, images, vibe = 'standard' }) => {
+// Notice 'id' is now included in the props here
+const DayCard = ({ id, htmlId, day, title, description, images, vibe = 'standard' }) => {
   const scrollRef = useRef(null);
   
   // NEW: State to control the Fog Gate. Defaults to true (unlocked) for normal days.
@@ -134,9 +137,13 @@ const DayCard = ({ htmlId, day, title, description, images, vibe = 'standard' })
           </p>
           
           <div className="flex justify-center mt-6">
-            <button className={`px-8 py-3 border ${activeVibe.button} transition-all duration-300 uppercase tracking-[0.2em] text-xs font-bold cursor-pointer`}>
+            {/* The button is now a Link component pointing to the gallery page hash */}
+            <Link 
+              to={`/gallery#gallery-day-${id}`}
+              className={`px-8 py-3 border ${activeVibe.button} transition-all duration-300 uppercase tracking-[0.2em] text-xs font-bold cursor-pointer inline-block`}
+            >
               View Gallery
-            </button>
+            </Link>
           </div>
         </div>
       </div>
