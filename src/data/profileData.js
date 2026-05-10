@@ -1,6 +1,6 @@
 // src/data/profileData.js
 export const profileData = {
-  name: "Anton",
+  name: "Antonio Apostol",
   level: 99,
   archetype: "Full-Stack Spellblade",
   covenant: "Educ Tour Scholars",

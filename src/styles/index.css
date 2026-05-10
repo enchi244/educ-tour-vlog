@@ -1,36 +1,42 @@
 /* src/styles/index.css */
 @import "tailwindcss";
 
+/* 1. TYPOGRAPHY OF THE ANCIENTS */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Cormorant+Garamond:ital,wght@0,400;0,700;1,400&display=swap');
+
+@theme {
+  --font-serif: "Cinzel", serif;
+  --font-sans: "Cormorant Garamond", serif;
+}
+
 /* Global Dark Fantasy Theme Variables */
 :root {
   color-scheme: dark;
 }
 
+/* 5. THE CUSTOM CURSOR */
 body {
   margin: 0;
-  background-color: #0a0a0a; /* Deep void black */
+  background-color: #0a0a0a;
   color: #e5e7eb;
-  overflow-x: hidden; /* Prevents the page from shifting left/right if an ember floats off-screen */
+  overflow-x: hidden;
+  /* Standard glowing blade cursor */
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0L14 10L24 12L14 14L12 24L10 14L0 12L10 10Z" fill="%23c5a87c"/></svg>') 12 12, auto;
+}
+
+/* Brighter cursor when hovering over clickable items */
+a, button, [role="button"] {
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0L14 10L24 12L14 14L12 24L10 14L0 12L10 10Z" fill="%23ffd700"/></svg>') 12 12, pointer !important;
 }
 
 /* =========================================
-   The Ember Animation Engine
+   The Ember Animation Engine (Keep your existing embers)
    ========================================= */
 @keyframes floatUp {
-  0% {
-    transform: translateY(100vh) translateX(0px) scale(0.5);
-    opacity: 0;
-  }
-  20% {
-    opacity: 0.8;
-  }
-  80% {
-    opacity: 0.6;
-  }
-  100% {
-    transform: translateY(-20vh) translateX(30px) scale(1.2);
-    opacity: 0;
-  }
+  0% { transform: translateY(100vh) translateX(0px) scale(0.5); opacity: 0; }
+  20% { opacity: 0.8; }
+  80% { opacity: 0.6; }
+  100% { transform: translateY(-20vh) translateX(30px) scale(1.2); opacity: 0; }
 }
 
 .ember {

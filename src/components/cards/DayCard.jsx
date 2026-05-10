@@ -111,18 +111,19 @@ const DayCard = ({ id, htmlId, day, title, description, images, vibe = 'standard
             style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
           >
             {images.map((img, index) => (
+              /* 6. VIGNETTE ADDED HERE via inset shadow */
               <div 
                 key={index} 
-                className={`relative min-w-[90%] md:min-w-[60%] snap-center h-72 md:h-96 shrink-0 group/img border-r ${activeVibe.border} last:border-r-0`}
+                className={`relative min-w-[90%] md:min-w-[60%] snap-center h-72 md:h-96 shrink-0 group/img border-r ${activeVibe.border} last:border-r-0 shadow-[inset_0_0_100px_rgba(0,0,0,1)] hover:shadow-[inset_0_0_30px_rgba(0,0,0,0.5)] transition-shadow duration-700`}
               >
                 <img 
                   src={img} 
                   alt={`${title} - location ${index + 1}`}
-                  className="w-full h-full object-cover grayscale-[40%] group-hover/img:grayscale-0 transition-all duration-700 ease-in-out"
+                  className="w-full h-full object-cover grayscale-[50%] group-hover/img:grayscale-0 transition-all duration-700 ease-in-out relative z-0"
                 />
-                <div className="absolute inset-0 bg-black/30 group-hover/img:bg-transparent transition-colors duration-500"></div>
+                <div className="absolute inset-0 bg-[#050505]/50 group-hover/img:bg-transparent transition-colors duration-700 z-10"></div>
                 
-                <div className={`absolute bottom-4 right-4 bg-black/60 px-3 py-1 ${activeVibe.textAccent} font-serif text-xs tracking-widest border ${activeVibe.border} backdrop-blur-sm`}>
+                <div className={`absolute bottom-4 right-4 bg-[#050505]/80 px-3 py-1 ${activeVibe.textAccent} font-serif text-xs tracking-widest border ${activeVibe.border} backdrop-blur-md z-20`}>
                   {index + 1} / {images.length}
                 </div>
               </div>
