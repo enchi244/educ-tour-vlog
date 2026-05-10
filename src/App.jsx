@@ -29,10 +29,10 @@ function App() {
       <header className="pt-32 pb-16 text-center border-b border-[#c5a87c]/10 relative z-10">
         <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-64 h-[1px] bg-gradient-to-r from-transparent via-[#c5a87c]/50 to-transparent"></div>
         <h1 className="text-5xl md:text-7xl text-[#c5a87c] font-serif tracking-widest uppercase drop-shadow-[0_0_15px_rgba(197,168,124,0.3)] mb-4">
-          Tour Log
+          Educational Tour
         </h1>
         <p className="text-gray-500 font-serif italic tracking-wide">
-          Chronicles of the final requirement
+          The last Voyage
         </p>
       </header>
 

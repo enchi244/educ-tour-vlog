@@ -2,73 +2,145 @@
 export const tourData = [
   {
     id: 1,
-    day: "Day 1 (April 5)",
+    day: "Day 1",
     title: "Arrival & The City Tour",
-    description: "Our journey began with a morning flight to Manila and settling into the DJM Dormitory. The afternoon was a marathon City Tour traversing Intramuros, Fort Santiago, Rizal Park, Manila Cathedral, San Agustin Church, CCP, and the Mall of Asia.",
+    description: "Our pilgrimage commenced with a flight across the skies to the sprawling capital of Manila, establishing our first Site of Grace at the DJM Dormitory. The afternoon demanded a grueling expedition through the ancient legacy dungeons of Intramuros and Fort Santiago, walking paths paved by fallen empires. We paid our respects at Rizal Park, the Manila Cathedral, and San Agustin Church, before pressing on to the vast commercial expanse of the Mall of Asia.",
     images: [
-      "https://images.unsplash.com/photo-1519074069444-1ba4fff66d16?q=80&w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?q=80&w=800&auto=format&fit=crop"
+      "/images/day1/1.jpg",
+      "/images/day1/2.jpg",
+      "/images/day1/4.jpg",
+      "/images/day1/5.jpg",
+      "/images/day1/6.jpg",
+      "/images/day1/7.jpg",
+      "/images/day1/8.jpg",
+      "/images/day1/9.jpg",
+      "/images/day1/10.jpg",
+      "/images/day1/11.jpg",
+      "/images/day1/12.jpg",
+      "/images/day1/13.jpg",
+      "/images/day1/14.jpg",
+      "/images/day1/15.jpg",
+
     ],
     vibe: "standard"
   },
   {
     id: 2,
-    day: "Day 2 (April 6)",
+    day: "Day 2",
     title: "First Industry Foray",
-    description: "An early start at 6:00 AM. We proceeded to Novaliches to visit HYTEC POWER INC., followed by an afternoon deployment to Makati to explore OPENTEXT PHILIPPINES, INC.",
+    description: "Arising at the break of dawn, our fellowship ventured into the industrial territories of Novaliches. Here, at HYTEC POWER INC., we witnessed the forging of great machinery and power. By afternoon, we teleported to the high towers of Makati, stepping into the modern domain of OPENTEXT PHILIPPINES, INC., a testament to the arcane arts of global enterprise software.",
     images: [
-      "https://images.unsplash.com/photo-1507842217343-583bb7270b66?q=80&w=800&auto=format&fit=crop"
+      "/images/day2/1.jpg",
+      "/images/day2/2.jpg",
+      "/images/day2/3.jpg",
+      "/images/day2/4.jpg",
+      "/images/day2/5.jpg",
+      "/images/day2/6.jpg",
+      "/images/day2/7.jpg",
+      "/images/day2/8.jpg",
+      "/images/day2/9.jpg",
+      "/images/day2/10.jpg",
+      "/images/day2/11.jpg",
+      "/images/day2/12.jpg",
+      "/images/day2/13.jpg",
+      "/images/day2/14.jpg",
+      "/images/day2/15.jpg",
     ],
     vibe: "standard"
   },
   {
     id: 3,
-    day: "Day 3 (April 7)",
+    day: "Day 3",
     title: "Command Centers & BPOs",
-    description: "The cohort split into two detachments. Our objectives included navigating the MMDA Command Center and visiting TELEPERFORMANCE PHILIPPINES INC. in Taguig, culminating at SM North Edsa.",
+    description: "The cohort divided its strength to cover more ground. Our detachment breached the MMDA Command Center, the very nerve center that scries and manages the chaotic flow of the capital's streets. We then marched upon TELEPERFORMANCE PHILIPPINES INC. in Taguig, marveling at the endless halls of operations that sustain the tech realm, finally resting our weary spirits at SM North Edsa.",
     images: [
-      "https://images.unsplash.com/photo-1540575467063-178a50c2df87?q=80&w=800&auto=format&fit=crop"
+      "/images/day3/1.jpg",
+      "/images/day3/2.jpg",
+      "/images/day3/3.jpg",
+      "/images/day3/12.jpg",
+      "/images/day3/4.jpg",
+      "/images/day3/5.jpg",
+      "/images/day3/6.jpg",
+      "/images/day3/7.jpg",
+      "/images/day3/8.jpg",
+      "/images/day3/9.jpg",
+      "/images/day3/10.jpg",
+      "/images/day3/11.jpg",
+      "/images/day3/13.jpg",
     ],
     vibe: "standard"
   },
   {
     id: 4,
-    day: "Day 4 (April 8)",
+    day: "Day 4",
     title: "Studios & Sourcing",
-    description: "Another split deployment. The mission took us to Las Piñas to visit TOP PEG ANIMATION AND CREATIVE STUDIO, INC., before heading to Libis, Q.C., to inspect MICROSOURCING PHILIPPINES, INC.",
+    description: "Another tactical split. We rode south to Las Piñas to behold the creative sorceries of TOP PEG ANIMATION AND CREATIVE STUDIO, INC., where artists breathe life into still frames. Our quest then led us to the northern strongholds of Libis, Q.C., infiltrating MICROSOURCING PHILIPPINES, INC. We absorbed immense knowledge of offshore operations, leaving our minds heavy but our attributes leveled up.",
     images: [
-      "https://images.unsplash.com/photo-1551818255-e6e10975bc17?q=80&w=800&auto=format&fit=crop"
+      "/images/day4/1.jpg",
+      "/images/day4/2.jpg",
+      "/images/day4/3.jpg",
+      "/images/day4/4.jpg",
+      "/images/day4/5.jpg",
+      "/images/day4/6.jpg",
+      "/images/day4/7.jpg",
     ],
     vibe: "standard"
   },
   {
     id: 5,
-    day: "Day 5 (April 9)",
+    day: "Day 5",
     title: "Respite at Sky Ranch",
-    description: "A much-needed moment of rest. We traveled to Tagaytay to experience the heights of SKY RANCH, recovering our stamina before the long road ahead.",
+    description: "A rare moment of peace in our relentless campaign. We ascended to the cool peaks of Tagaytay, discovering a sanctuary at SKY PARK. We shed our academic armor, partaking in the towering rides and gazing upon the fog-shrouded landscapes. It was a vital Site of Grace, restoring our Crimson Tears before the arduous trek to the northern peaks of SKY RANCH partaking in the great challenge of ride VIKING.",
     images: [
-      "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?q=80&w=800&auto=format&fit=crop"
+      "/images/day5/5.jpg",
+      "/images/day5/6.jpg",
+      "/images/day5/7.jpg",
+      "/images/day5/8.jpg",
+      "/images/day5/9.jpg",
+      "/images/day5/10.jpg",
+      "/images/day5/4.jpg",
+
+      "/images/day5/1.jpg",
+      "/images/day5/2.jpg",
     ],
     vibe: "siteOfGrace"
   },
   {
     id: 6,
-    day: "Day 6 (April 10)",
+    day: "Day 6",
     title: "The Baguio Ascendance",
-    description: "FOE IMMINENT. The day began with a brutal 1:00 AM departure. Upon arrival in Baguio City, we immediately launched into a massive tour: Strawberry Farm, Chinese Bell Church, PMA, Mines View Park, Wright Park, Mansion House, and Burnham Park.",
+    description: "A true test of vigor. Under the cover of profound darkness at 1:00 AM, we began the treacherous ascent to the mountainous realm of Baguio City. The freezing mists greeted us as we harvested the Strawberry Farms and traversed the vibrant Chinese Bell Church. We then faced the disciplined ranks of the Philippine Military Academy (PMA). Exhausted but unyielding, we conquered Mines View Park, Wright Park, Mansion House, and Burnham Park. A legendary marathon.",
     images: [
-      "https://images.unsplash.com/photo-1582450871972-ab5ca641643d?q=80&w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1504280313467-33c0eb01dd6d?q=80&w=800&auto=format&fit=crop"
+      "/images/day6/1.jpg",
+      "/images/day6/2.jpg",
+      "/images/day6/3.jpg",
+      "/images/day6/4.jpg",
+      "/images/day6/5.jpg",
+      "/images/day6/6.jpg",
+      "/images/day6/7.jpg",
+      "/images/day6/8.jpg",
+      "/images/day6/9.jpg",
+      "/images/day6/10.jpg",
+      "/images/day6/11.jpg",
+      "/images/day6/12.jpg",
+      "/images/day6/13.jpg",
+      "/images/day6/14.jpg",
+      "/images/day6/15.jpg",
+      "/images/day6/16.jpg",
+      "/images/day6/17.jpg",
+      "/images/day6/18.jpg",
+      "/images/day6/19.jpg",
     ],
     vibe: "boss"
   },
   {
     id: 7,
-    day: "Day 7 (April 11)",
+    day: "Day 7",
     title: "Final Haul & Descent",
-    description: "Our final active day. We secured provisions and Pasalubong at Maharlika Shopping Center and SM Baguio before checking out of Prince Plaza Hotel and beginning the long descent back to Manila.",
+    description: "The final phase of our quest. We scoured the Maharlika Shopping Center and SM Baguio for rare items and local provisions—Pasalubong for our kin. With heavy packs and bittersweet hearts, we abandoned our refuge at the Prince Plaza Hotel. Thus began the long, winding descent back to the lowlands of Manila, our minds enriched and our great journey drawing to its natural end.",
     images: [
-      "https://images.unsplash.com/photo-1472851294608-062f824d29cc?q=80&w=800&auto=format&fit=crop"
+      "/images/day7/1.jpg",
+      "/images/day7/2.jpg"
     ],
     vibe: "siteOfGrace"
   }
